@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>P2P_volunteering.API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="ProjNET4GeoAPI" Version="1.4.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.2.0" />
+    <PackageReference Include="System.Text.Json" Version="4.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\P2P-volunteering.BO\P2P-volunteering.BO.csproj" />
+    <ProjectReference Include="..\P2P-volunteering.DAL\P2P-volunteering.DAL.csproj" />
+    <ProjectReference Include="..\P2P-volunteering.Geo\P2P-volunteering.Geo.csproj" />
+  </ItemGroup>
+
+
+</Project>

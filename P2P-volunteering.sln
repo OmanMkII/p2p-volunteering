@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2P-volunteering.API", "P2P-volunteering.API\P2P-volunteering.API.csproj", "{FD8AE1FF-1DB0-4EB6-B5EB-E50E93DA4CE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2P-volunteering.DAL", "P2P-volunteering.DAL\P2P-volunteering.DAL.csproj", "{4035464A-AF64-4C2C-B33A-B413EC78A40E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2P-volunteering.BO", "P2P-volunteering.BO\P2P-volunteering.BO.csproj", "{B59D184E-B4F9-46E3-BA47-189751CB486D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2P-volunteering.Geo", "P2P-volunteering.Geo\P2P-volunteering.Geo.csproj", "{790B431E-3994-444E-BD23-BD2B338B5B55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD8AE1FF-1DB0-4EB6-B5EB-E50E93DA4CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8AE1FF-1DB0-4EB6-B5EB-E50E93DA4CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8AE1FF-1DB0-4EB6-B5EB-E50E93DA4CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8AE1FF-1DB0-4EB6-B5EB-E50E93DA4CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4035464A-AF64-4C2C-B33A-B413EC78A40E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4035464A-AF64-4C2C-B33A-B413EC78A40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4035464A-AF64-4C2C-B33A-B413EC78A40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4035464A-AF64-4C2C-B33A-B413EC78A40E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B59D184E-B4F9-46E3-BA47-189751CB486D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59D184E-B4F9-46E3-BA47-189751CB486D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59D184E-B4F9-46E3-BA47-189751CB486D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59D184E-B4F9-46E3-BA47-189751CB486D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{790B431E-3994-444E-BD23-BD2B338B5B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{790B431E-3994-444E-BD23-BD2B338B5B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{790B431E-3994-444E-BD23-BD2B338B5B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{790B431E-3994-444E-BD23-BD2B338B5B55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE9E4630-0839-48A0-BBBA-8260D0F89A80}
+	EndGlobalSection
+EndGlobal
